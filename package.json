@@ -1,0 +1,17 @@
+{
+  "name": "lollabot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^2.0.0",
+    "node-cron": "^3.0.0",
+    "twitter-api-v2": "^1.12.0"
+  },
+  "type": "module"
+}
