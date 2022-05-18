@@ -84,7 +84,7 @@ function getName() {
   return nameList[Math.floor(Math.random() * nameList.length)];
 }
 
-Cron.schedule("0 0 */5 * * *", () => {
+Cron.schedule("0 0 */6 * * *", () => {
   var name = getName();
   var body = `${name[0]} confirmad${
     name[1] == "M" ? "o" : "a"
