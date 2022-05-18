@@ -67,7 +67,7 @@ const nameList = [
   ["El tren de la alegría", "M"],
   ["La Masa", "M"],
   ["Dualde", "M"],
-  ["Samuel Eto’o", "M"][("El Pibe con el que debuto Pele", "M")],
+  ["Samuel Eto’o", "M"],
   ["Keanu Reeves", "M"],
   ["Torres Erwerle", "M"],
   ["El Trinche", "M"],
