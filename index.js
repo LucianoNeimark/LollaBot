@@ -81,7 +81,7 @@ const nameList = [
 function getName() {
   return nameList[Math.floor(Math.random() * nameList.length)];
 }
-
+console.log("Bot running");
 Cron.schedule("0 0 */6 * * *", () => {
   var name = getName();
   var body = `${name[0]} confirmad${
