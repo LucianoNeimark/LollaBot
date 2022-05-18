@@ -4,8 +4,6 @@ import Cron from "node-cron";
 import dotenv from "dotenv";
 dotenv.config();
 
-console.log(process.env.APPKEY);
-
 const client = new TwitterApi({
   appKey: process.env.APPKEY,
   appSecret: process.env.APSECRET,
